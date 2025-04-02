@@ -25,7 +25,6 @@ public class NumbersPositiveTest extends BaseTest {
                 new TestData("repeated numbers", List.of(21, 21, 21, 21, 21, 21, 21), List.of(22, 22, 22, 22, 22, 22, 22)),
                 new TestData("empty list", EMPTY_LIST, EMPTY_LIST),
                 new TestData("mixed numbers", List.of(-1, 0, 1, 2), List.of(0, 1, 2, 3)),
-                new TestData("mixed numbers", List.of(-1, 0, 1, 2), List.of(0, 1, 2, 3)),
                 new TestData("large list", List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20), List.of(2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
         );
     }
