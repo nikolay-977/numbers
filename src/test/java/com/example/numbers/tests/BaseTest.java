@@ -8,7 +8,7 @@ public class BaseTest {
     protected NumbersClient numbersClient;
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
         numbersClient = new NumbersClient();
     }
 }

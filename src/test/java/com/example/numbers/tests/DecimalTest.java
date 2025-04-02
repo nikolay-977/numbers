@@ -45,7 +45,7 @@ public class DecimalTest extends BaseTest {
     }
 
     private static class TestRequest {
-        private List<Double> numbers;
+        private final List<Double> numbers;
 
         public TestRequest(List<Double> numbers) {
             this.numbers = numbers;

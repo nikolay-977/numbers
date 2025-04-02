@@ -8,7 +8,7 @@ import static org.apache.http.HttpStatus.SC_OK;
 public class NumbersClient extends BaseClient {
     public static final String API_PATH = "/api/numbers";
 
-    public ValidatableResponse calculateNumbersOk(Object request){
+    public ValidatableResponse calculateNumbersOk(Object request) {
         return getRequestSpecification()
                 .body(request)
                 .when()
@@ -18,7 +18,7 @@ public class NumbersClient extends BaseClient {
                 .statusCode(SC_OK);
     }
 
-    public ValidatableResponse calculateNumbersBadRequest(Object request){
+    public ValidatableResponse calculateNumbersBadRequest(Object request) {
         return getRequestSpecification()
                 .body(request)
                 .when()
